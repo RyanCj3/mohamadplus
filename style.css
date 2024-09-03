@@ -1,0 +1,131 @@
+:root{
+--black-principal: #FFFFFF;
+--cinza-secundario: #f8f8f8;
+--botao-red: #FF0000;
+--cor-de-fundo:#000000;
+--fonte-principal:'Inter';
+--botao-red-efetivo: #d85656;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--black-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image:url("img/itachi-uchiha-cute.gif") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+.c_b{
+    background-color: var(--botao-red);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--black-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em ;
+}
+.b_2{
+    background-color: transparent;
+    border: 2px solid var(--black-principal);
+}
+.c_a{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.c_t{
+    font-size: 30px;
+    font-weight: 700;
+}
+.c_i{
+    margin: 1em 0 2em 0;
+}
+.c_c{
+    margin: 0 6em;
+}
+.i_2{
+    width: 50%;
+}
+.c_2{
+    align-items: center;
+    margin: 0 10em ;
+}
+.d_t{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--black-principal);
+    margin-bottom: 0.5em;
+}
+.d_te{
+   color: var(--cinza-secundario);
+}
+.s_b{
+    display: inline-block;
+    margin-top: 1em ;
+}
+.c_dd{
+    padding: 2em;
+}
+.c_i{
+    margin: 80px;
+    justify-content: right;
+}
+.dis_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type:none ;
+    margin: 5em 0;
+}
+.dis{
+    text-align: center;
+}
+.dis_tit{
+    font-size: 48px;
+}
+.lista_item{
+    font-size: 32px;
+}
+.lista_link a:hover{
+    color: var(--botao-red);
+}
+.lista_link a:active{
+    color: white;
+}
+.c_b:hover{
+    background-color: var(--botao-red-efetivo);
+    color: var(--botao-red);
+}
+.r_l{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista_link a{
+    text-decoration: none;
+    color: var(--black-principal);
+    margin-left: 1em;
+}
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
